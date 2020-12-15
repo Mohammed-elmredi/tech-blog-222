@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -24,7 +25,8 @@ body {
     width: 100%;
     height: 100vh;
     color: #111;
-
+    font-family: 'Raleway',
+    sans-serif;
     background-color: rgb(255, 255, 255);
 
 }
@@ -105,19 +107,20 @@ header .bar ul li a:hover {
 .top_line {
     position: relative;
     width: 100%;
-    height: 5px;
+    height: 10px;
     margin-bottom: 50px;
-    background: linear-gradient(45deg, transparent, rgb(51, 49, 49), rgb(218, 218, 218));
+    background: linear-gradient(45deg, transparent, rgb(32, 148, 243), transparent);
+
 
 }
 
 .left_bar {
     margin-top: 50px;
     position: absolute;
-    width: 200px;
+    width: 100%;
     display: flex;
 
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 
@@ -256,7 +259,7 @@ a {
     body {
         width: 100vw;
         box-sizing: border-box;
-        background-color: lightblue;
+    
         padding: 0;
         overflow-x: hidden;
     }
@@ -276,6 +279,8 @@ a {
         align-items: center;
         float: right;
         background-color: rgb(32, 148, 243);
+        border: 5px solid rgb(134, 199, 252);
+        border-radius: 10px;
         padding: 16px 16px 16px;
         color: rgb(255, 255, 255);
         font-size: 25px;
