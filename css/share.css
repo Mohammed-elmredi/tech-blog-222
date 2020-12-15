@@ -1,0 +1,61 @@
+.social {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+.social .yt {
+    position: relative;
+    float: right;
+    width: 150px;
+    background: red;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    border: 5px solid rgb(255, 91, 91);
+    font-size: 2em;
+}
+
+.social .fs {
+    position: relative;
+    float: right;
+    width: 150px;
+    background: rgb(14, 52, 133);
+    margin: 20px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    border: 5px solid rgb(42, 75, 148);
+    font-size: 2em;
+}
+
+.social .tw {
+    position: relative;
+    float: right;
+    width: 150px;
+    background: rgb(12, 137, 240);
+    margin: 20px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    border: 5px solid rgb(91, 168, 255);
+    font-size: 2em;
+}
+
+.social .ds {
+    position: relative;
+    float: right;
+    width: 150px;
+    background: rgb(93, 10, 141);
+    margin: 20px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    border: 5px solid rgb(192, 109, 248);
+    font-size: 2em;
+}
