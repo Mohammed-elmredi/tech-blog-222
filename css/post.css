@@ -89,6 +89,7 @@ body {
 position: relative;
 width: 60%;
 margin: 20px auto;
+line-height: 30px;
 padding: 16px 16px 16px;
 }
 .conetnt h1,h2,h3,h4,h5,h6,p{
@@ -96,6 +97,14 @@ padding: 16px 16px 16px;
 }
 .conetnt img {
   width: 100%;
+}
+table {
+     border: 5px solid rgb(62, 152, 255);
+}
+table td{
+    margin: 0;
+    padding: 16px;
+    border: 1px solid rgb(58, 158, 216);
 }
 
 @media only screen and (max-width: 650px) {
@@ -135,6 +144,9 @@ padding: 16px 16px 16px;
     width: 100%;
     margin: 10px auto;
     padding: 15px 15px 15px;
+}
+.yt-iframe {
+    width: 100%;
 }
     .social {
         width: 100%;
