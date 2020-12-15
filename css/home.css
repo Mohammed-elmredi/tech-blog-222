@@ -327,7 +327,7 @@ a {
     }
 
     .blog_posts .content .button {
-
+        width: 110px;
         margin-left: auto;
         margin-top: auto;
         margin-bottom: 20px;
