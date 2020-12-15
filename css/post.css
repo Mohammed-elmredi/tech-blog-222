@@ -84,6 +84,13 @@ body {
 .close {
     display: none;
 }
+
+.conetnt {
+position: relative;
+width: 60%;
+margin: 20px auto;
+padding: 16px 16px 16px;
+}
 @media only screen and (max-width: 650px) {
     body {
         width: 100vw;
@@ -117,7 +124,11 @@ body {
         width: 100%;
         display: none;
     }
-
+.conetnt {
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px 5px 5px;
+}
     .social {
         width: 100%;
         flex-direction: column;
