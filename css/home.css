@@ -144,8 +144,7 @@ header .bar ul li a:hover {
 }
 
 a {
-    color: rgb(14, 159, 255);
-
+    color: rgb(72, 167, 230);
     text-decoration: none;
 }
 
@@ -162,6 +161,7 @@ a {
 }
 
 .blog_posts .content {
+    color: #111;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -176,6 +176,7 @@ a {
 }
 
 .blog_posts .content .txt {
+    float: right;
     margin-bottom: auto;
     float: right;
 }
