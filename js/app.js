@@ -1,5 +1,14 @@
-const a  = document.querySelector('a')
+const menu = document.querySelector('.left_bar')
+const openBar = document.querySelector('.open')
+const closeBar = document.querySelector('.close')
 
-a.addEventListener('click', ()=> {
-    document.body.scrollTop = 0
+openBar.addEventListener('click', ()=> {
+    menu.style.display = "flex"
+    closeBar.style.display = "block"
+
+})
+closeBar.addEventListener('click', ()=> {
+    menu.style.display = "none"
+    closeBar.style.display = "none"
+
 })
