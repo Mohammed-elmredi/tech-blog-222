@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -10,12 +11,13 @@ html {
 body::-webkit-scrollbar {
     width: 10px;
 }
- body::-webkit-scrollbar-thumb {
-     background: linear-gradient(0deg, rgb(255, 68, 0), transparent);
-     border-bottom-left-radius: 50%;
-     border-bottom-right-radius: 50%;
 
- }
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(0deg, rgb(255, 68, 0), transparent);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
 
 body {
     position: relative;
@@ -23,7 +25,7 @@ body {
     height: 100vh;
     color: #111;
 
-background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -46,9 +48,10 @@ header .logo {
     font-size: 2em;
     line-height: 100px;
     color: rgb(46, 145, 226);
-padding: 06px 16px 16px;
+    padding: 06px 16px 16px;
 
 }
+
 header .bar {
     position: relative;
     align-items: center;
@@ -56,38 +59,55 @@ header .bar {
     padding: 16px 16px 16px;
 
 }
+header .open {
+    position: relative;
+    align-items: center;
+    float: right;
+    background-color: red;
+    padding: 16px 16px 16px;
+    color: rgb(47, 137, 255);
+    font-size: 25px;
+
+}
+
 header .bar ul {
-    
+
     display: flex;
     flex-direction: row;
 }
+
 header .bar ul li {
     padding: 16px 16px 16px;
     list-style: none;
-  border-radius: 10px;
+    border-radius: 10px;
 
 }
+
 header .bar ul li:nth-child(1) {
     border-bottom: 5px solid coral;
-  border-radius: 10px;
- transition: 0.5s;
+    border-radius: 10px;
+    transition: 0.5s;
 }
+
 header .bar ul li:hover {
     border-bottom: 5px solid coral;
     background-color: rgb(107, 106, 106);
-   
-      height: 50%;
+
+    height: 50%;
 
 }
-header .bar ul li a{
-   color: rgb(14, 159, 255);
-   font-size: 25px;
-   text-decoration: none;
+
+header .bar ul li a {
+    color: rgb(14, 159, 255);
+    font-size: 25px;
+    text-decoration: none;
 }
+
 header .bar ul li a:hover {
     color: rgb(255, 255, 255);
-    
+
 }
+
 .top_line {
     position: relative;
     width: 100%;
@@ -96,17 +116,19 @@ header .bar ul li a:hover {
     background: linear-gradient(45deg, transparent, rgb(51, 49, 49), rgb(218, 218, 218));
 
 }
+
 .left_bar {
-margin-top: 50px;
+    margin-top: 50px;
     position: absolute;
     width: 200px;
     display: flex;
 
     flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
 
 }
+
 .left_bar .cate {
     position: relative;
     width: 120px;
@@ -122,36 +144,41 @@ margin-top: 50px;
     border-top: 1px solid rgb(0, 0, 0);
 
 
-  
+
 }
+
 a {
-     color: rgb(14, 159, 255);
-   
-     text-decoration: none;
+    color: rgb(14, 159, 255);
+
+    text-decoration: none;
 }
+
 .blog_posts {
     position: relative;
     padding: 16px 16px 16px;
     width: 60%;
-    margin:50px auto;
+    margin: 50px auto;
     background: rgb(255, 255, 255);
     color: rgb(26, 26, 26);
     border: 5px solid rgb(192, 109, 248);
     border-radius: 20px;
     box-shadow: 1px 2px 10px #000;
 }
+
 .blog_posts .content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
 
 }
+
 .blog_posts .content img {
     margin-right: 20px;
-    max-width: 40%;
+    width: 40%;
 }
+
 .blog_posts .content .txt {
     margin-bottom: auto;
     float: right;
@@ -160,12 +187,12 @@ a {
 .blog_posts .content .button {
     position: relative;
     width: 150px;
-   padding: 10px 10px 10px;
+    padding: 10px 10px 10px;
     border: 5px solid rgb(192, 109, 248);
-   color: white;
-   border-radius: 10px;
+    color: white;
+    border-radius: 10px;
     background: rgb(93, 10, 141);
-     margin-top: auto;
+    margin-top: auto;
 }
 
 .social {
@@ -173,6 +200,7 @@ a {
     margin: auto;
     display: flex;
 }
+
 .social .yt {
     position: relative;
     float: right;
@@ -186,6 +214,7 @@ a {
     border: 5px solid rgb(255, 91, 91);
     font-size: 2em;
 }
+
 .social .fs {
     position: relative;
     float: right;
@@ -199,6 +228,7 @@ a {
     border: 5px solid rgb(42, 75, 148);
     font-size: 2em;
 }
+
 .social .tw {
     position: relative;
     float: right;
@@ -212,6 +242,7 @@ a {
     border: 5px solid rgb(91, 168, 255);
     font-size: 2em;
 }
+
 .social .ds {
     position: relative;
     float: right;
@@ -226,3 +257,71 @@ a {
     font-size: 2em;
 }
 
+/* make the website responsive*/
+
+@media only screen and (max-width: 650px) {
+    body {
+        width: 100vw;
+        box-sizing: border-box;
+        background-color: lightblue;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    header .bar {
+        width: 100%;
+        display: none;
+    }
+
+    .social {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .social .share {
+        width: 100%;
+        margin: 5px;
+
+
+    }
+
+    .top_line {
+        margin-bottom: 20px;
+    }
+
+    .blog_posts {
+        width: 99%;
+    }
+
+    .blog_posts .content {
+        flex-direction: column;
+        height: 100%;
+
+
+    }
+
+    .blog_posts .content img {
+        width: 100%;
+        margin-right: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .blog_posts .content .button {
+
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: 20px;
+    }
+
+    .blog_posts .content .txt {
+        width: 100%;
+        margin-left: 20px;
+
+    }
+
+
+
+
+}
