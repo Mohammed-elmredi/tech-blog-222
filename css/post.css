@@ -138,6 +138,7 @@ body {
  
     .left_bar {
         display: none;
+        flex-direction: column;
         position: fixed;
         margin-top: 0;
         top: 0;
